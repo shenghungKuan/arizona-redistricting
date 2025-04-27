@@ -342,9 +342,23 @@ For the analysis we performed 10,000 steps on a 50% threshold for the Native Ame
   </figure>
 </div>
 
-## 4 Discussion/Conclusions
+## 5. Discussion/Conclusions
 
-## 5 Acknowledgements
+Overall, our analyses suggest that the 2022 Arizona State Senate redistricting plan largely aligns with expectations from neutral, randomized ensembles, but some notable patterns emerge.
+
+First, the Outlier Analysis for cut edges indicates that while the enacted plan has a slightly higher number of boundary cuts compared to the ensemble mean, it remains well within two standard deviations. This suggests that district boundaries are not unusually irregular or "choppy" compared to typical redistricting outcomes. The slightly elevated number of cut edges could be explained by Arizona’s geographic features and the need to balance multiple redistricting criteria (e.g., compactness, minority representation, respect for communities of interest), which can lead to more complex borders.
+
+Second, the Efficiency Gap analysis reveals that the 2022 plan produces election results that are modestly more favorable to Republicans than would be expected from random maps. However, the efficiency gaps (-0.10 for the presidential election and -0.09 for the senate election) are only slightly outside the ensemble average and remain within a constitutionally acceptable range (±0.08). This slight Republican advantage could be attributed to natural geographic clustering, where Democratic voters are heavily concentrated in urban areas like Phoenix and Tucson, making it easier to “waste” Democratic votes through packing without deliberate gerrymandering.
+
+Third, when examining Democratic District Wins, we find that the number of Democratic-majority districts under the 2022 plan is very close to the ensemble peak: 14 wins for the presidential election and 15 wins for the senate election. This indicates that the overall partisan balance produced by the enacted plan is consistent with what a neutral process would likely yield. Again, natural political geography likely explains much of the distribution, with Democrats dominating a few urban districts and Republicans spread more efficiently across suburban and rural areas.
+
+Fourth, the Marginal Box Plots show some evidence of cracking and packing. Districts 5–11 consistently show lower Democratic vote shares than expected (possible cracking), while Districts 18–25 and 28 show elevated Democratic support (possible packing). These patterns suggest that even if partisan bias at the statewide level is low, district-level manipulation may have occurred to shore up Republican majorities in competitive areas or to concentrate Democratic voters into fewer districts. Additionally, efforts to comply with the Voting Rights Act or to preserve "communities of interest" may have inadvertently reinforced these patterns.
+
+Finally, the Short Burst Analysis confirms that the Native American population is sufficiently concentrated to form at least one majority-minority district. However, forming a second such district appears unlikely due to the spatial dispersion of Native American communities outside of key population centers. This highlights the challenges of achieving strong minority representation when populations are both concentrated and fragmented geographically.
+
+In conclusion, while the 2022 Arizona State Senate map does not appear to be an extreme outlier compared to neutral ensembles, subtle signs of partisan advantage through localized cracking and packing exist. Many of the observed patterns can be explained by the natural political geography of Arizona, the constraints of redistricting criteria, and the difficulty of balancing multiple legal and representational goals. The plan respects general fairness principles overall, but opportunities remain for improving minority representation and reducing potential vote dilution in future cycles.
+
+## 6. Acknowledgements
 
 We would like to express our sincere gratitude to everyone who supported and guided us throughout this project.
 A special thanks goes to Professor Veomett, Dr. Sarah Cannon and Dr. Daryl DeFord, whose insights and encouragement inspired our work.
