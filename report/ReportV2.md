@@ -51,7 +51,7 @@ This explosive growth has had a significant impact on redistricting, as Arizona 
 
 ### 2.3 Population Racial Demographics
 
-In Arizona, the Native American population, which includes Hispanic individuals who identify as Native American, was estimated at approximately 319,512 in 2023, representing about 6.2% of the state's population. This number places Arizona third in the nation for Native American population. Arizona also has a significant Hispanic population, with about 32.5% of the state's residents identifying as Hispanic.
+In Arizona, the Native American population, which includes Hispanic individuals who identify as Native American, was estimated at approximately 319,512 in 2023, representing about 6.3% of the state's population. This number places Arizona third in the nation for Native American population. Arizona also has a significant Hispanic population, with about 32.5% of the state's residents identifying as Hispanic.
 
 
 <figure>
@@ -233,7 +233,7 @@ The marginal box plots—often referred to as the signature of gerrymandering, i
 
 Short Burst analysis is a technique used within ensemble methods to assess the potential for creating majority-minority districts for a specific population group. By running a Markov Chain and selecting an outlier plan after a defined number of steps—known as the burst length, this method identifies the maximum number of districts in which a minority group can form a majority. It is commonly applied to evaluate compliance with the Voting Rights Act (VRA) and to explore the representational potential of historically underrepresented populations.
 
-In this report, we performed Short Burst analysis using two different burst lengths 10 and 50. The figures presented highlight the results from the burst length that yielded the greatest number of majority-minority districts. This analysis was applied specifically to the Native American Voting Age Population (NAINVAP) to assess their potential for majority representation.
+In this report, we performed Short Burst analysis using two different burst lengths 10 and 50. The figures presented highlight the results from the burst length that yielded the greatest number of majority-minority districts. This analysis was applied specifically to the Native American Voting Age Population (AMINVAP) to assess their potential for majority representation.
 
 ## 4. Results
 
@@ -241,10 +241,10 @@ In this section, we will present the results from the Outlier Analysis, Marginal
 
 ### 4.1 Outlier Analysis - Cutting Edges
 
-In Figure 1, we compare the number of cut edges in the 2022 State Legislative map to those from an MCMC ensemble. A cut edge refers to a boundary where two adjacent geographic units (such as precincts or blocks) belong to different districts. Essentially, a measure of how “choppy” or irregular district borders are. The ensemble histogram shows a mean of approximately 815 cut edges, while the 2022 map contains about 869. Although the enacted map falls within two standard deviations of the ensemble mean, indicating a slightly higher number of boundary cuts, the difference is not significant. Overall, the number of cut edges in the 2022 plan is reasonably close to the ensemble average and does not raise concerns about unusually irregular district shapes.
+In Figure 1, we compare the number of cut edges in the 2022 State Legislative map to those from an MCMC ensemble. A cut edge refers to a boundary where two adjacent geographic units (such as precincts or blocks) belong to different districts. Essentially, a measure of how “choppy” or irregular district borders are. The ensemble histogram shows a mean of approximately 825 cut edges, while the 2022 map contains about 869. Although the enacted map falls within two standard deviations of the ensemble mean, indicating a slightly higher number of boundary cuts, the difference is not significant. Overall, the number of cut edges in the 2022 plan is reasonably close to the ensemble average and does not raise concerns about unusually irregular district shapes.
 
 <figure style="margin: 0; text-align: center;">
-    <img width="500" height="400" src="/data/AZ_recom_2020_SEND/AZ_G20PRE_ce/AZ_G20PRE_ce_20000.png"
+    <img width="500" height="400" src="/data/AZ_recom_2020_SEND/AZ_G20PRE_ce/AZ_G20PRE_ce_40000.png"
          alt="Ensemble Cute Edges ">
     <figcaption>Figure 1: Cut Edges</figcaption>
   </figure>
@@ -257,13 +257,13 @@ The Efficiency Gap of the 2022 map for the presidential elections is -.10 and fo
 
 <div style="display: flex; gap: 20px; align-items: flex-start;">
   <figure style="margin: 0;">
-    <img width="500" height="400" src="/data/AZ_recom_2020_SEND/AZ_G20PRE_eg/AZ_G20PRE_eg_20000.png"
+    <img width="500" height="400" src="/data/AZ_recom_2020_SEND/AZ_G20PRE_eg/AZ_G20PRE_eg_40000.png"
          alt="AZ Ensemble Efficiency Gap Presidential Election">
     <figcaption>Figure 3: AZ Ensemble Efficiency Gap Presidential Election</figcaption>
   </figure>
 
   <figure style="margin: 0;">
-    <img width="500" height="400" src="/data/AZ_recom_2020_SEND/AZ_G20USS_eg/AZ_G20USS_eg_20000.png"
+    <img width="500" height="400" src="/data/AZ_recom_2020_SEND/AZ_G20USS_eg/AZ_G20USS_eg_40000.png"
          alt="AZ Ensemble Efficiency Gap Senate Election">
     <figcaption>Figure 4: AZ Ensemble Efficiency Gap Senate Election</figcaption>
   </figure>
@@ -272,20 +272,20 @@ The Efficiency Gap of the 2022 map for the presidential elections is -.10 and fo
 
 ### 4.3 Outlier Analysis - Democratic District Wins
 
-We observed, during the Democratic winning districts analysis, that the peaks of the ensembles from Presidential and Senate elections are located at 15 (out of 30 State Legislative districts). 
+We observed, during the Democratic winning districts analysis, that the peaks of the ensembles from Presidential and Senate elections for Democrat District wins are 14 & 15 (out of 30 State Legislative districts). 
 
 Figure 5 and 6 show that the 2022 map gives 14 Democratic winning districts for the Presidential election (one less than the ensemble) and 15 for the Senate election. Both elections were quite competitive, and resulted in a Democratic Victory, with Democrats securing approximate 50% of the vote share for the Presidential election and 51% for the Senate Election.
 
 
 <div style="display: flex; gap: 20px; align-items: flex-start;">
   <figure style="margin: 0;">
-    <img width="500" height="400" src="/data/AZ_recom_2020_SEND/AZ_G20PRE_dw/AZ_G20PRE_dw_20000.png"
+    <img width="500" height="400" src="/data/AZ_recom_2020_SEND/AZ_G20PRE_dw/AZ_G20PRE_dw_40000.png"
          alt="2022 Approved Senate Legislative Map">
     <figcaption>Figure 5: Presidential Election District based Democrat Wins</figcaption>
   </figure>
 
   <figure style="margin: 0;">
-    <img width="500" height="400" src="/data/AZ_recom_2020_SEND/AZ_G20USS_dw/AZ_G20USS_dw_20000.png"
+    <img width="500" height="400" src="/data/AZ_recom_2020_SEND/AZ_G20USS_dw/AZ_G20USS_dw_40000.png"
          alt="2022 Approved Congressional Map">
     <figcaption>Figure 6: Senate Election District based Democrat Wins</figcaption>
   </figure>
@@ -293,54 +293,54 @@ Figure 5 and 6 show that the 2022 map gives 14 Democratic winning districts for 
 
 ### 4.3 Marginal Box Plots
 
-Figure 4 presents box plots for Democratic vote percentages by district for the 2022 and
-2023 redistricting plans, plotted against an ensemble distribution of each district from
-PRE 2020. The districts are sorted based on the Democratic voting percentage. In
-this plot, the ensemble distribution provided a baseline for evaluating the fairness and
-competitiveness of the districts under the 2022 and 2023 plans.
+Figure 7 and 8 presents box plots for the Democratic vote percentages by district for the 2022 redistricting plan, plotted against an ensemble distribution of each district from the Presidential election and Senate election in 2020. The districts are sorted based on the Democratic voting percentage. The red points represent where the democratic vote share lies for the 2022 plan.
 
-The green points representing the 2022 plan often lie within to near the ensemble’s
-interquartile range, suggesting that this plan’s districts align reasonably well with the
+Upon examining the marginal box plot for the presidential election we see that about half the districts fall in the inner quartile of box plot, while the other remaining half are significantly below (potential cracked districts 5-11) or significantly high (potential packed districts 18-25, 28). Districts where the vote share lies outside the inner quartile, suggest evidence of potential cracking and packing in these districts that may dilute the democratic win share.
 
+Upon examining the marginal box plot for the senate election, we observe similar results as the presidential box plots. The districts significantly below the inner quartile are districts 5-11, and the ones significantly high are Districts 18-25, & 28.
 
-ensemble predictions. This might indicate that the 2022 redistricting followed patterns
-that could be expected from unbiased or less-manipulated processes.
-The red points, denoting the 2023 plan, show more significant deviations from the
-
-ensemble distribution in several districts. Notably, in some districts (e.g., districts num-
-bered 11 through 13 and district 1), the red points lie higher than the ensemble’s in-
-terquartile range, and in some cases, even beyond the whiskers. The Democratic votes
-
-in these districts were likely to be packed. In districts number 6 through 10, the red dots
-lie under the ensemble’s interquartile range. The democratic votes in these districts may
-be cracked. The district at index 10 becomes a competitive district. Overall, the 2023
-plan is less balanced or more strategically manipulated toward partisan gerrymandering
-that favors the Republican party.
 
 <div style="display: flex; gap: 20px; align-items: flex-start;">
   <figure style="margin: 0;">
-    <img width="500" height="400" src="/data/AZ_recom_2020_SEND/AZ_G20PRE_signature/AZ_G20PRE_signature.png"
+    <img width="500" height="400" src="/data/AZ_recom_2020_SEND/AZ_G20PRE_signature/AZ_G20PRE_signature_1.png"
          alt="Presidential Marginal Box Plots">
     <figcaption>Figure 7: Presidential Election Marginal Box Plots</figcaption>
   </figure>
 
   <figure style="margin: 0;">
-    <img width="500" height="400" src="/data/AZ_recom_2020_SEND/AZ_G20USS_signature/AZ_G20USS_signature.png"
+    <img width="500" height="400" src="/data/AZ_recom_2020_SEND/AZ_G20USS_signature/AZ_G20USS_signature_1.png"
          alt="Senate Marginal Box Plots">
     <figcaption>Figure 8: Senate Election Marginal Box Plots</figcaption>
   </figure>
 </div>
 
-### 3.4 Short Burst
+### 4.4 Short Burst
+
+The Native American population accounts for approximately 6.3% of the total population in Arizona and the distribution across state is fairly concentrated. At most from a bird's eye view of the heatmap in Figure 9, they should be able to at least be the Majority in 1 district, and possibly the largest minority in another district.
+
+For the analysis we performed 10,000 steps on a 50% threshold for the Native American voting age population (AMINVAP) with burst length set to 10. Are results are noted in Figure 10. We can see that there is definitely enough Native American population density to form a Single Majority Minority District, but the other districts even if recombined may not be enough to form another Minority-Majority District.  
+
 
 <div style="display: flex; gap: 20px; align-items: flex-start;">
   <figure style="margin: 0;">
+    <img width="500" height="400" src="/data/AZ_sb/heatmap.png"
+         alt="2022 Approved Senate Legislative Map">
+    <figcaption>Figure 9: Native American Population Density HeatMap </figcaption>
+  </figure>
+  <figure style="margin: 0;">
     <img width="500" height="400" src="/data/AZ_sb/AZ_sb_1.png"
          alt="2022 Approved Senate Legislative Map">
-    <figcaption>2022 Approved Senate Legislative Map</figcaption>
+    <figcaption>Figure 10: Native American Focused Short burst</figcaption>
   </figure>
 </div>
 
+<div style="display: flex; gap: 20px; align-items: flex-start;">
+  <figure style="margin: 0;">
+    <img width="100" height="100" src="/data/AZ_sb/legend.png"
+         alt="2022 Approved Senate Legislative Map">
+    <figcaption>Figure 10a: Population legend</figcaption>
+  </figure>
+</div>
 
 ## 4 Discussion/Conclusions
 
