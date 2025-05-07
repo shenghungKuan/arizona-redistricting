@@ -1,9 +1,0 @@
-fastapi[standard]
-pandas
-geopandas
-maup
-matplotlib
-gerrychain
-requests
-notebook
-ipykernel
