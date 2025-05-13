@@ -65,7 +65,7 @@ This explosive growth has had a significant impact on redistricting, as Arizona 
 <figure>
     <img width="500" height="250" src="/report/images/pop_growth.png"
          alt="arizona population line graph">
-    <figcaption>Population growth from 1990 to 2020. (USAFacts, 2025)</figcaption>
+    <figcaption>Population growth in Arizona from 1990 to 2020. (USAFacts, 2025)</figcaption>
 </figure>
 
 ### 2.3 Population Racial Demographics
@@ -265,7 +265,7 @@ In Figure 1, we compare the number of cut edges in the 2022 State Legislative ma
 <figure style="margin: 0; text-align: center;">
     <img width="500" height="400" src="/data/AZ_recom_2020_SEND/AZ_G20PRE_ce/AZ_G20PRE_ce_40000.png"
          alt="Ensemble Cute Edges ">
-    <figcaption>Figure 1: Cut Edges</figcaption>
+    <figcaption>Figure 1: Ensemble Cut Edges vs 2022 State Legislative Map</figcaption>
   </figure>
 
 ### 4.2 Outlier Analysis - Efficiency Gap
@@ -278,13 +278,13 @@ The Efficiency Gap of the 2022 map for the presidential elections is -.10 and fo
   <figure style="margin: 0;">
     <img width="500" height="400" src="/data/AZ_recom_2020_SEND/AZ_G20PRE_eg/AZ_G20PRE_eg_40000.png"
          alt="AZ Ensemble Efficiency Gap Presidential Election">
-    <figcaption>Figure 3: AZ Ensemble Efficiency Gap Presidential Election</figcaption>
+    <figcaption>Figure 3: AZ Ensemble Efficiency Gap Presidential Election 2020</figcaption>
   </figure>
 
   <figure style="margin: 0;">
     <img width="500" height="400" src="/data/AZ_recom_2020_SEND/AZ_G20USS_eg/AZ_G20USS_eg_40000.png"
          alt="AZ Ensemble Efficiency Gap Senate Election">
-    <figcaption>Figure 4: AZ Ensemble Efficiency Gap Senate Election</figcaption>
+    <figcaption>Figure 4: AZ Ensemble Efficiency Gap Senate Election 2018</figcaption>
   </figure>
 </div>
 
@@ -300,13 +300,13 @@ Figure 5 and 6 show that the 2022 map gives 14 Democratic winning districts for 
   <figure style="margin: 0;">
     <img width="500" height="400" src="/data/AZ_recom_2020_SEND/AZ_G20PRE_dw/AZ_G20PRE_dw_40000.png"
          alt="2022 Approved Senate Legislative Map">
-    <figcaption>Figure 5: Presidential Election District based Democrat Wins</figcaption>
+    <figcaption>Figure 5: Presidential Election 2020 Democrat District Wins Ensemble vs Initial Plan</figcaption>
   </figure>
 
   <figure style="margin: 0;">
     <img width="500" height="400" src="/data/AZ_recom_2020_SEND/AZ_G20USS_dw/AZ_G20USS_dw_40000.png"
          alt="2022 Approved Congressional Map">
-    <figcaption>Figure 6: Senate Election District based Democrat Wins</figcaption>
+    <figcaption>Figure 6: Senate Election 2018 Democrat District Wins Ensemble vs Initial Plan</figcaption>
   </figure>
 </div>
 
@@ -323,13 +323,13 @@ Upon examining the marginal box plot for the senate election, we observe similar
   <figure style="margin: 0;">
     <img width="500" height="400" src="/data/AZ_recom_2020_SEND/AZ_G20PRE_signature/AZ_G20PRE_signature_1.png"
          alt="Presidential Marginal Box Plots">
-    <figcaption>Figure 7: Presidential Election Marginal Box Plots</figcaption>
+    <figcaption>Figure 7: Presidential Election 2020 Marginal Box Plots vs State Legislative Map 2022 40,000 Ensemble Steps</figcaption>
   </figure>
 
   <figure style="margin: 0;">
     <img width="500" height="400" src="/data/AZ_recom_2020_SEND/AZ_G20USS_signature/AZ_G20USS_signature_1.png"
          alt="Senate Marginal Box Plots">
-    <figcaption>Figure 8: Senate Election Marginal Box Plots</figcaption>
+    <figcaption>Figure 8: Senate Election Marginal Box Plots vs State Legislative Map 40,000 Ensemble Steps</figcaption>
   </figure>
 </div>
 
@@ -349,7 +349,7 @@ For the analysis we performed 10,000 steps on a 50% threshold for the Native Ame
   <figure style="margin: 0;">
     <img width="500" height="400" src="/data/AZ_sb/AZ_sb_1.png"
          alt="2022 Approved Senate Legislative Map">
-    <figcaption>Figure 10: Native American Focused Short burst</figcaption>
+    <figcaption>Figure 10: figure illustrates a Native American majority district generated using a shortburst Markov Chain ensemble. The simulation ran for 10,000 steps with a burst length of 10, capturing a representative sample of valid districting plans that maintain a Native American CVAP majority.</figcaption>
   </figure>
 </div>
 
